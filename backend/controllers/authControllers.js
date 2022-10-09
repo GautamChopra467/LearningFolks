@@ -40,7 +40,7 @@ async function sendEmail({ email }) {
         const otp = await generateOtp({ email });
 
         const mailOptions = {
-            from: `Maatri <${process.env.GMAIL}>`,
+            from: `Learning Folks 📨 <${process.env.GMAIL}>`,
             to: email,
             subject: "Verification mail",
             text: `This is your verification code - ${otp}`,
