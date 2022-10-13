@@ -42,7 +42,7 @@ const Login = () => {
   useEffect(() => {
   
     if( Object.keys(formErrors).length === 0 && isSubmit ){
-      axios.post("http://localhost:8000/login",
+      axios.post("http://localhost:5000/auth/login",
       { 
         ...user
       },{

@@ -52,7 +52,7 @@ const OTPVerify = ({theme, setTheme}) => {
   useEffect(() => {
     if( Object.keys(formErrors).length === 0 && isSubmit ){
     
-      axios.post(`http://localhost:8000/verifyotp`, user)
+      axios.post(`http://localhost:5000/auth/verifyotp`, user)
       .then( res => {
         if(res.data.errors){
           setFormErrors(res.data.errors)

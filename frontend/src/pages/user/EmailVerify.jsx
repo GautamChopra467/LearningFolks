@@ -12,7 +12,7 @@ import Header from "../../components/user/jsx/Header";
 const EmailVerify = () => {
   const navigate = useNavigate();
 
-const {type} = useParams()
+const {type} = useParams();
 
   const [loading, setLoading] = useState(false);
 
@@ -42,7 +42,7 @@ const {type} = useParams()
   useEffect(() => {
     if( Object.keys(formErrors).length === 0 && isSubmit ){
       setLoading(!loading);
-      axios.post(`http://localhost:8000/verifyemail/?type=${type}`, user)
+      axios.post(`http://localhost:5000/auth/verifyemail/?type=${type}`, user)
       .then( res => {
         if(res.data.errors){
           setLoading(!loading);
