@@ -13,11 +13,11 @@ const cookieParser = require("cookie-parser");
 
 const connection = require("./db/connection");
 
-const CONSTANT = require("./utils/constants/appConstants");
-
 const port = 5000 || process.env.PORT;
 
 const authRoute = require("./routes/authRoutes");            
+
+const CONSTANT = require("./utils/constants/appConstants");
 
 app.use(cors({
     origin: ["http://localhost:3000"],
@@ -30,8 +30,8 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.use(CONSTANT.ROUTES.AUTH, authRoute);
-
-app.listen(() => {
+   
+app.listen( port , () => {
     console.log(`Server is listening on port ${port}`);
     connection(process.env.MONGO_URI);
 });

@@ -47,7 +47,7 @@ module.exports = {
         }else if(college.length < 2){
             errors.college = "Minimum 2 characters required";
         }else if(college.length > 24){
-            errors.name = "Maximum 24 characters required";
+            errors.college = "Maximum 24 characters required";
         }
 
         if (Object.keys(errors).length === 0) {

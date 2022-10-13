@@ -46,17 +46,17 @@ const SignUp = () => {
 
   useEffect(() => {
     if( Object.keys(formErrors).length === 0 && isSubmit ){
-      axios.post("http://localhost:5000/user/signup", user)
+      axios.post("http://localhost:5000/auth/signup", user)
       .then( res => {
         if(res.data.errors){
-          setFormErrors(res.data.errors)
+          setFormErrors(res.data.errors);
         }
        else if(res.data.message === "true"){
           navigate(`/emailverify/${type}`);
         }else {
           setFormErrors({final: res.data.message});
         }
-      });
+      }).catch(err=>console.log(err));
     }
   }, [formErrors]);
 

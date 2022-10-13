@@ -42,7 +42,7 @@ const ForgotPassword = () => {
 
   useEffect(() => {
     if( Object.keys(formErrors).length === 0 && isSubmit ){
-      axios.post("http://localhost:5000/user/newpassword", user)
+      axios.post("http://localhost:5000/auth/newpassword", user)
       .then( res => {
         if(res.data.errors){
           setFormErrors(res.data.errors);
