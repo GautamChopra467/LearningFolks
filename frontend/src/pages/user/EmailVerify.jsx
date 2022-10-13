@@ -7,7 +7,7 @@ import YoutubeLogo from "../../img/youtube-logo.svg";
 import "../../components/user/css/EmailOTPVerifyStyles.css";
 import { BsArrowRightShort } from "react-icons/bs";
 import axios from "axios";
-// import HeaderAuth from "../../components/student/jsx/HeaderAuth";
+import Header from "../../components/user/jsx/Header";
 
 const EmailVerify = () => {
   const navigate = useNavigate();
@@ -81,7 +81,7 @@ const {type} = useParams()
 
   return (
     <div>
-      {/* <HeaderAuth  /> */}
+      <Header />
 
       <div className="main_emailOtp">
         <div className="left-part_emailOtp">

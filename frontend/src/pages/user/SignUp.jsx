@@ -7,8 +7,8 @@ import YoutubeLogo from "../../img/youtube-logo.svg";
 import "../../components/user/css/SignUpStyles.css";
 import { BsArrowRightShort } from "react-icons/bs";
 import axios from "axios";
-// import HeaderAuth from "../../components/student/jsx/HeaderAuth";
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
+import Header from "../../components/user/jsx/Header";
 
 const SignUp = () => {
   const navigate = useNavigate();
@@ -115,7 +115,7 @@ const SignUp = () => {
 
   return (
     <div>
-      {/* <HeaderAuth  /> */}
+      <Header />
 
       <div className="main_signup">
         <div className="left-part_signup">

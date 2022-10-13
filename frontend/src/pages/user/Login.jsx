@@ -8,8 +8,7 @@ import "../../components/user/css/LoginStyles.css";
 import { BsArrowRightShort } from "react-icons/bs";
 import axios from "axios";
 import {useCookies} from 'react-cookie';
-// import HeaderAuth from "../../components/student/jsx/HeaderAuth";
-
+import Header from "../../components/user/jsx/Header";
 
 const Login = () => {
 
@@ -110,7 +109,7 @@ const Login = () => {
   return (
     <div>
       
-      {/* <HeaderAuth theme={theme} setTheme={setTheme} /> */}
+      <Header />
 
       <div className="main_login">
         <div className="left-part_login">
