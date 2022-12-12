@@ -1,0 +1,21 @@
+.main_heading{
+    color: var(--primary-color);
+}
+
+@media screen and (max-width:480px){
+    .main_heading{
+        font-size: 24px;
+    } 
+    .main_content_banner{
+        font-size: 13px;
+    }  
+}
+
+@media screen and (max-width:321px){
+    .main_heading{
+        font-size: 20px;
+    } 
+    .main_content_banner{
+        font-size: 11px;
+    }  
+}

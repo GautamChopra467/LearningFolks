@@ -6,7 +6,7 @@ import Home from "./pages/user/Home";
 import Login from "./pages/user/Login";
 import OTPVerify from "./pages/user/OTPVerify";
 import SignUp from "./pages/user/SignUp";
-
+import About from "./pages/About/About" ;
 const App = () => {
 
   return (  
@@ -18,7 +18,7 @@ const App = () => {
         <Route exact path="/emailverify/:type" element={<EmailVerify />} />  
         <Route exact path="/otpverify/:email/:type" element={<OTPVerify />} />      
         <Route exact path="/forgotpassword" element={<ForgotPassword />} />                                                              
-            
+        <Route exact path="/about" element={<About />} />                                                              
       </Routes>
     </BrowserRouter>
   );
