@@ -69,11 +69,13 @@
 .icon3_homebanner3 {
   font-size: 56px;
   color: var(--primary-color);
+  margin-left: -3px;
 }
 
 .icon4_homebanner3 {
   font-size: 66px;
   color: var(--primary-color);
+  margin-left: -7px;
 }
 
 @media screen and (max-width: 800px) {
