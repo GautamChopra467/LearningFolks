@@ -10,17 +10,21 @@ const HomeBanner3 = () => {
       <div className='main_container_homebanner3'>
         <div className='top_section_homebanner3'>
             <h2>Join Our Community</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+            <p>With exposure, networking and realisation
+support, we help each student work in the
+right direction based on their abilities. Being a
+part of the student community, we know their
+needs better than anyone else.</p>
         </div>
 
         <div className='bottom_section_homebanner3'>
-            <a href='https://react-icons.github.io/react-icons/search?q=linke'><BsLinkedin className='icon1_homebanner3' /></a>
+            <a href='https://www.linkedin.com/company/learning-folks/' target="_blank"><BsLinkedin className='icon1_homebanner3' /></a>
 
-            <a href='https://react-icons.github.io/react-icons/search?q=linke'><FaYoutubeSquare className='icon2_homebanner3' /></a>
+            <a href='https://www.youtube.com/@learningfolks8635' target="_blank"><FaYoutubeSquare className='icon2_homebanner3' /></a>
 
-            <a href='https://react-icons.github.io/react-icons/search?q=linke'><FaWhatsappSquare className='icon3_homebanner3' /></a>
+            <a href='https://chat.whatsapp.com/CsVKbuGcheBCOwlSD6SvVk' target="_blank"><FaWhatsappSquare className='icon3_homebanner3' /></a>
 
-            <a href='https://react-icons.github.io/react-icons/search?q=linke'><AiFillInstagram className='icon4_homebanner3' /></a>
+            <a href='https://www.instagram.com/learningfolks/' target="_blank"><AiFillInstagram className='icon4_homebanner3' /></a>
         </div>
       </div>
     </div>

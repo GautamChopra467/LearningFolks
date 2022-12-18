@@ -7,8 +7,14 @@ const HomeBanner1 = () => {
     <div>
       <div className='main_container_homebanner1'>
         <div className='top_section_homebanner1'>
-            <h2>Order Mconsectetur adip <span>orem ipsum dolor sit amet, consectetur adip</span></h2>
-            <p>OLorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium etiam nascetur volutpat aliquam mauris accumsan.</p>
+            <h2>“Teaching is the best form of Learning.” <span></span></h2>
+            <p>Our association with you helps us
+reach more students where we
+expand and you benefit from a large
+network of students from all domains
+in our community. Better reach helps
+us transform and realise our vision
+with more momentum.</p>
         </div>
 
         <div className='bottom_section_homebanner1'>

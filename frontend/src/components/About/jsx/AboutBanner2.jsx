@@ -6,8 +6,17 @@ const AboutBanner2 = () => {
     <div className='main_container_aboutbanner2'>
       <div className='top_section_aboutbanner2'>
         <h1 className='main_heading'>Learn From The Best !</h1>
-        <p className='main_content_banner'>Welcome to Learning Folks. With Learning Folks you get a chance to learn from the best. </p>
-        <p className='main_content_banner'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quae fugiat excepturi! Quas unde perferendis id, quaerat, excepturi sit et asperiores consequuntur non temporibus ex corrupti? Fuga eligendi veritatis odit!</p>
+        {/* <p className='main_content_banner'>Welcome to Learning Folks. With Learning Folks you get a chance to learn from the best. </p> */}
+        <p className='main_content_banner'>Learning folks is a student
+support community first,
+with support from
+professionals where we
+focus more on learning by
+ourselves. We share
+knowledge from specific
+domains where we have
+trained ourselves.
+</p>
       </div>
     </div> 
   </div>

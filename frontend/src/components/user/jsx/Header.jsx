@@ -34,7 +34,7 @@ const Header = () => {
       <div className="mid_section_header">
         <ul>
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/">About Us</Link></li>
+            <li><Link to="/about">About Us</Link></li>
             <li><Link to="/">Collaborate</Link></li>
             <li><Link to="/">LMS</Link></li>
 
