@@ -55,15 +55,15 @@ const Login = () => {
         else if(data.usertype === "superadmin" || data.usertype === "admin"){
             navigate(`/admin/info/${data.id}/dashboard`);
         }
-      else  if(data.usertype === "student" && data.verified == false){
+      else  if(data.usertype === "student" && data.verified === false){
           navigate(`/student/${data.id}/detailsone`);
-        }else if(data.usertype === "student" && data.verified == true){
+        }else if(data.usertype === "student" && data.verified === true){
          
           navigate(`/student/${data.id}/internships`);
-        }else if(data.usertype === "company" && data.verified == false){
+        }else if(data.usertype === "company" && data.verified === false){
           navigate(`/company/${data.id}/detailsone`);
         }
-        else if(data.usertype === "company" && data.verified == true){
+        else if(data.usertype === "company" && data.verified === true){
         
           navigate(`/company/info/${data.id}/dashboard`);
         }
@@ -72,11 +72,11 @@ const Login = () => {
         }
       });
     }
-  }, [formErrors]);
+  }, [formErrors, isSubmit, navigate, user]);
 
   const validate = (values) => {
     const errors = {};
-    const regex =/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    const regex =/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
     if(!values.email){
       errors.email = "Email required";

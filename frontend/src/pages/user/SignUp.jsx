@@ -58,7 +58,7 @@ const SignUp = () => {
         }
       }).catch(err=>console.log(err));
     }
-  }, [formErrors]);
+  }, [formErrors, isSubmit, navigate, user]);
 
   const validate = (values) => {
     const errors = {};

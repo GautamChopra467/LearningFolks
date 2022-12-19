@@ -1,11 +1,12 @@
 import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+// import { Link, useNavigate } from "react-router-dom";
+import { Link} from "react-router-dom";
 import Logo from "../../../img/logo.png";
 import "../css/HeaderStyles.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const Header = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   const [click,setClick] = useState(false);
   const handleClick = () => setClick(!click);
@@ -42,10 +43,10 @@ const Header = () => {
       </div>
 
 
-        <div className="button_container_header">
+        {/* <div className="button_container_header">
           <button onClick={() => navigate("/login")} className="btn_light_header">Log in</button>
           <button onClick={() => navigate("/signup")} className="btn_primary_header">Sign Up</button>
-        </div>
+        </div> */}
       </div>
 
       <div className="hamburger_header">
