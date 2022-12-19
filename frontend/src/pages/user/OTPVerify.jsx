@@ -15,7 +15,7 @@ const OTPVerify = ({theme, setTheme}) => {
 
   const {email,type} = useParams()
 
-  const [click, setClick] = useState(false);
+  // const [click, setClick] = useState(false);
 
   const [formErrors, setFormErrors] = useState({});
   const [isSubmit, setIsSubmit] = useState(false);
