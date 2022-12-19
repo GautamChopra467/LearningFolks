@@ -18,13 +18,13 @@ needs better than anyone else.</p>
         </div>
 
         <div className='bottom_section_homebanner3'>
-            <a href='https://www.linkedin.com/company/learning-folks/' target="_blank"><BsLinkedin className='icon1_homebanner3' /></a>
+            <a href='https://www.linkedin.com/company/learning-folks/' target="_blank" rel="noreferrer" ><BsLinkedin className='icon1_homebanner3' /></a>
 
-            <a href='https://www.youtube.com/@learningfolks8635' target="_blank"><FaYoutubeSquare className='icon2_homebanner3' /></a>
+            <a href='https://www.youtube.com/@learningfolks8635' target="_blank" rel="noreferrer"><FaYoutubeSquare className='icon2_homebanner3' /></a>
 
-            <a href='https://chat.whatsapp.com/CsVKbuGcheBCOwlSD6SvVk' target="_blank"><FaWhatsappSquare className='icon3_homebanner3' /></a>
+            <a href='https://chat.whatsapp.com/CsVKbuGcheBCOwlSD6SvVk' target="_blank" rel="noreferrer"><FaWhatsappSquare className='icon3_homebanner3' /></a>
 
-            <a href='https://www.instagram.com/learningfolks/' target="_blank"><AiFillInstagram className='icon4_homebanner3' /></a>
+            <a href='https://www.instagram.com/learningfolks/' target="_blank" rel="noreferrer"><AiFillInstagram className='icon4_homebanner3' /></a>
         </div>
       </div>
     </div>

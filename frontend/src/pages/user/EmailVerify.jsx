@@ -16,7 +16,7 @@ const {type} = useParams();
 
   const [loading, setLoading] = useState(false);
 
-  const [click, setClick] = useState(false);
+  // const [click, setClick] = useState(false);
 
   const [formErrors, setFormErrors] = useState({});
   const [isSubmit, setIsSubmit] = useState(false);
@@ -63,11 +63,11 @@ const {type} = useParams();
         }
       });
     }
-  }, [formErrors]);
+  }, [formErrors, isSubmit, loading, navigate, type, user]);
 
   const validate = (values) => {
     const errors = {};
-    const regex =/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    const regex =/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
     if(!values.email){
       errors.email = "Email required";
