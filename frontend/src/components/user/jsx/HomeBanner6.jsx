@@ -13,7 +13,7 @@ const HomeBanner6 = () => {
         <div className='bottom_section_homebanner6'>
             <div className='card_container_homebanner6'>
                 <div className='card_top_section_homebanner6'>
-                    <h3>“Rebecca ma’am’s videos made Biochemistry a cakewalk.”</h3>
+                    <h3>“Joining Learning Folks gave me insights of this tech world and it’s opportunities.”</h3>
                 </div>
 
                 <div className='card_bottom_section_homebanner6'>
@@ -29,7 +29,7 @@ const HomeBanner6 = () => {
 
             <div className='card_container_homebanner6'>
                 <div className='card_top_section_homebanner6'>
-                    <h3>“Rebecca ma’am’s videos made Biochemistry a cakewalk.”</h3>
+                    <h3>“Associating with Learning Folks, it’s a great experience to have a great network of learners and experienced people”</h3>
                 </div>
 
                 <div className='card_bottom_section_homebanner6'>
@@ -45,7 +45,7 @@ const HomeBanner6 = () => {
 
             <div className='card_container_homebanner6'>
                 <div className='card_top_section_homebanner6'>
-                    <h3>“Rebecca ma’am’s videos made Biochemistry a cakewalk.”</h3>
+                    <h3>“My college life has taken such an impactful jump, has helped me impro my soft skills and personality”</h3>
                 </div>
 
                 <div className='card_bottom_section_homebanner6'>
