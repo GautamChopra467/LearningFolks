@@ -1,6 +1,6 @@
 import React from 'react';
 import "../css/HomeBanner6Styles.css";
-import Testimonial1 from "../../../img/banner/event1.jpg";
+// import Testimonial1 from "../../../img/banner/event1.jpg";
 
 const HomeBanner6 = () => {
   return (
