@@ -33,7 +33,7 @@
 
 .card_container_homebanner6 {
   width: 33.33%;
-  min-height: 240px;
+  min-height: 280px;
   background: var(--white-color);
   border: 1px solid var(--input-border);
 box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
@@ -52,6 +52,7 @@ border-radius: 10px;
 
 .card_top_section_homebanner6 h3 {
   font-weight: 600;
+  min-height: 160px;
   font-size: 22px;
   line-height: 32px;
   color: var(--menu-link);
@@ -96,6 +97,12 @@ border-radius: 10px;
   color: var(--para-color);
 }
 
+@media screen and (max-width: 1170px) {
+  .card_container_homebanner6 {
+    min-height: 360px;
+  }
+}
+
 @media screen and (max-width: 1020px) {
   .main_container_homebanner6 {
     padding: 60px 40px;
@@ -103,12 +110,12 @@ border-radius: 10px;
   }
 
   .card_container_homebanner6 {
-    min-height: 300px;
+    min-height: 380px;
   }
 
   .card_top_section_homebanner6 h3 {
     font-size: 20px;
-    line-height: 32px;
+    line-height: 26px;
   }
 
   .card_bottom_section_homebanner6 {
