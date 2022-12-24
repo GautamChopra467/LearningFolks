@@ -4,6 +4,7 @@ import Testimonial1 from "../../../img/banner/testimonial1.jpeg";
 import Testimonial2 from "../../../img/banner/testimonial2.jpeg";
 import Testimonial3 from "../../../img/banner/testimonial3.jpeg";
 
+
 const HomeBanner6 = () => {
   return (
     <div>
