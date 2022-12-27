@@ -25,7 +25,7 @@ const HomeBanner6 = () => {
                     </div>
                     <div className='detail_container_homebanner6'>
                         <h4>Himanshi Hora</h4>
-                        <p>BVCOE</p>
+                        <p></p>
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@ const HomeBanner6 = () => {
                     </div>
                     <div className='detail_container_homebanner6'>
                         <h4>Sujal</h4>
-                        <p>BVCOE</p>
+                        <p></p>
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@ const HomeBanner6 = () => {
                     </div>
                     <div className='detail_container_homebanner6'>
                         <h4>Tarushi Mishra</h4>
-                        <p>BVCOE</p>
+                        <p></p>
                     </div>
                 </div>
             </div>
