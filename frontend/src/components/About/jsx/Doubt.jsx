@@ -20,7 +20,7 @@ const Doubt = () => {
         <input type="tel" name="phoneno" placeholder='Phone No.' />
         </div>
         <div>
-        <input type="hidden" name="_next" value="http://localhost:3000/about" />
+        <input type="hidden" name="_next" value="https://www.learningfolks.in/about" />
         </div>
         <div>
         <input type="hidden" name="_captcha" value="false" />

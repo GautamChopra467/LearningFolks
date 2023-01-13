@@ -6,7 +6,7 @@ const Carreer = () => {
   return (
     <>
       <div className='carreer_section'>
-        <h1>Carreer With Us</h1>
+        <h1>Career With Us</h1>
       </div>
       <div className='card_container'>
         <div className='card_left'>
