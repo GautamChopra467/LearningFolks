@@ -22,13 +22,13 @@ const Footer = () => {
             <div className='bottom_right_section_footer'>
                 <p>Connect With Us On</p>
                 <div className='icons_container_footer'>
-                    <a href='https://react-icons.github.io/react-icons/search?q=linke'><BsLinkedin className='icon1_footer' /></a>
+                    <a href=' https://www.linkedin.com/company/learning-folks/'><BsLinkedin className='icon1_footer' /></a>
 
-                    <a href='https://react-icons.github.io/react-icons/search?q=linke'><FaYoutubeSquare className='icon2_footer' /></a>
+                    <a href='https://www.youtube.com/@learningfolks8635'><FaYoutubeSquare className='icon2_footer' /></a>
 
-                    <a href='https://react-icons.github.io/react-icons/search?q=linke'><FaWhatsappSquare className='icon3_footer' /></a>
+                    <a href='https://chat.whatsapp.com/CsVKbuGcheBCOwlSD6SvVk'><FaWhatsappSquare className='icon3_footer' /></a>
 
-                    <a href='https://react-icons.github.io/react-icons/search?q=linke'><AiFillInstagram className='icon4_footer' /></a>
+                    <a href='https://www.instagram.com/learningfolks/'><AiFillInstagram className='icon4_footer' /></a>
                 </div>
             </div>
         </div>

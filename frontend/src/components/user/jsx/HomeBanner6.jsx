@@ -1,6 +1,9 @@
 import React from 'react';
 import "../css/HomeBanner6Styles.css";
-import Testimonial1 from "../../../img/banner/event1.jpg";
+import Testimonial1 from "../../../img/banner/testimonial1.jpeg";
+import Testimonial2 from "../../../img/banner/testimonial2.jpeg";
+import Testimonial3 from "../../../img/banner/testimonial3.jpeg";
+
 
 const HomeBanner6 = () => {
   return (
@@ -21,8 +24,8 @@ const HomeBanner6 = () => {
                         <img src={Testimonial1} alt='testimonial' />
                     </div>
                     <div className='detail_container_homebanner6'>
-                        <h4>Dr. Shagun Batra</h4>
-                        <p>Rank 1</p>
+                        <h4>Himanshi Hora</h4>
+                        <p></p>
                     </div>
                 </div>
             </div>
@@ -34,11 +37,11 @@ const HomeBanner6 = () => {
 
                 <div className='card_bottom_section_homebanner6'>
                     <div className='image_container_homebanner6'>
-                        <img src={Testimonial1} alt='testimonial' />
+                        <img src={Testimonial2} alt='testimonial' />
                     </div>
                     <div className='detail_container_homebanner6'>
-                        <h4>Dr. Shagun Batra</h4>
-                        <p>Rank 1</p>
+                        <h4>Sujal</h4>
+                        <p></p>
                     </div>
                 </div>
             </div>
@@ -50,11 +53,11 @@ const HomeBanner6 = () => {
 
                 <div className='card_bottom_section_homebanner6'>
                     <div className='image_container_homebanner6'>
-                        <img src={Testimonial1} alt='testimonial' />
+                        <img src={Testimonial3} alt='testimonial' />
                     </div>
                     <div className='detail_container_homebanner6'>
-                        <h4>Dr. Shagun Batra</h4>
-                        <p>Rank 1</p>
+                        <h4>Tarushi Mishra</h4>
+                        <p></p>
                     </div>
                 </div>
             </div>
