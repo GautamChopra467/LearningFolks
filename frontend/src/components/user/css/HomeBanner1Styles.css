@@ -44,6 +44,51 @@ color: var(--light-gray);
     width: 370px;
 }
 
+.imgholder > img{
+    max-width: 50vw;
+    position: relative;
+    left: 0;
+}
+.ctasection{
+    display: flex;
+    width: 100vw;
+}
+.buttonholder{
+    background-color: radial-gradient(190.27% 190.27% at 49.8% -11.08%, #FFFFFF 26.01%, #60D2E7 80.54%);
+    width: 100vw;
+}
+.buttonholder > h2{
+    position: relative;
+ left: 12vw;
+ top: 1vh;
+ font-weight: 600;
+ font-size: xx-large;
+ font-family: sans-serif;
+}
+/* Button */
+.gotocourses{
+ padding: 1rem;
+ position: relative;
+ left: 20vw;
+ top: 20vh;
+ background-color: var(--primary-color);
+ color: white;
+ border: 2px solid black;
+ padding: 1.5rem;
+ border-radius: 20px;
+ width: auto;
+ height: auto;
+ font-weight: 900;
+ font-size: x-large;
+ /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; */
+}
+.gotocourses:hover{
+    background-color: rgb(72, 161, 72);
+    translate: 1px 1px;
+    border: 1px solid white;
+}
+
+
 @media screen and (max-width: 900px) {
     .top_section_homebanner1 h2 {
         width: 100%;
