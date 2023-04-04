@@ -2,6 +2,7 @@ import React from 'react';
 import "../css/HomeBanner1Styles.css";
 import Globe from "../../../img/banner/globe.png";
 import plans from "../../../img/banner/plans.jpeg";
+import HiringBanner from './HiringBanner';
 
 const HomeBanner1 = () => {
   return (
@@ -15,7 +16,9 @@ const HomeBanner1 = () => {
         <div className='bottom_section_homebanner1'>
           <img src={Globe} alt='banner' />
         </div>
-
+        <div>
+        <HiringBanner />
+        </div>
         <div className='ctasection'>
           <div className='imgholder'>
           <img classname="planimg" src={plans} alt='plans' />
