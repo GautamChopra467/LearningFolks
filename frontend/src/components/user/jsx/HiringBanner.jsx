@@ -9,8 +9,8 @@ const HiringBanner = () => {
   return (
     <div>
       <div className='main_container_hiring_banner'>
-        <div>
-            <img className='hiring_banner_image' src={HiringBannerImage}/>
+        <div className='imagecont'>
+            <img className='hiring_banner_image' src={HiringBannerImage} alt=" " />
         </div>
         <div className='top_section_hiring_banner3 '>
             <h2>WE ARE HIRING<span className='astrisk_hiring'>*</span></h2>
