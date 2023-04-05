@@ -1,6 +1,6 @@
 .main_container_homebanner1 {
     width: 100%;
-    /* height: 90vh; */
+    /* height: 200vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,7 +41,7 @@ color: var(--light-gray);
 }
 
 .bottom_section_homebanner1 img {
-    width: 370px;
+    width: 35vw;
 }
 
 .imgholder > img{
