@@ -62,6 +62,9 @@
       .main_container_hiring_banner {
           padding: 50px 30px;
         }
+        .imagecont{
+          display: none;
+        }
   
     .top_section_hiring_banner3 h2 {
       font-size: 32px;
@@ -80,7 +83,9 @@
           padding: 40px 20px;
           grid-gap: 15px;
         }
-     
+        .imagecont{
+          display: none;
+        }
   
       .top_section_hiring_banner3 h2 {
           font-size: 28px;
