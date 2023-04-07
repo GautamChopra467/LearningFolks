@@ -1,95 +1,153 @@
-.main_container_hiring_banner {
+.main_container_hiring_banner{
+  display: grid;
+  grid-template-columns: 40% 60%;
+  padding: 60px 60px;
+}
+
+.hiring_banner_image{
+  width: 90%;
+  height: 350px;
+}
+
+.top_section_hiring_banner3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.top_section_hiring_banner3_content{
+  width: 100%;
+}
+
+.top_section_hiring_banner3_header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+
+.top_section_hiring_banner3_header h2{
+  color: #175CE6;
+  font-size: 38px;
+  text-align: center;
+}
+
+.top_section_hiring_banner3_desc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 20px;
+}
+
+.apply_home_page_btn{
+  background-color: var(--primary-color);
+  font-size: 18px;
+  color:white;
+  border: none;
+  outline: none;
+  padding : 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.apply_home_page_btn:focus{
+  outline : none;
+}
+
+.career_arrow_icon{
+    font-size: 18px;
+}
+
+
+
+@media  screen and (max-width:1000px)  {
+  .main_container_hiring_banner{
+    grid-template-columns: 50% 50%;
+  }
+  
+}
+
+@media  screen and (max-width:880px)  {
+  .top_section_hiring_banner3_header h2{
+    font-size: 34px;
+  }
+}
+
+@media  screen and (max-width:813px)  {
+  .main_container_hiring_banner{
+    grid-template-columns: 45% 55%;
+    gap: 3%;
+  }
+  
+}
+
+@media  screen and (max-width:769px)  {
+  .hiring_banner_image{
     width: 100%;
-    padding: 60px 40px;
+    height: 300px;
+  }
+}
+
+@media  screen and (max-width:759px)  {
+  .main_container_hiring_banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .hiring_banner_image_container{
     display: flex;
     align-items: center;
     justify-content: center;
-    grid-gap: 20px;
+      width: 350px
   }
+}
+
+@media  screen and (max-width:464px)  {
+  .main_container_hiring_banner{
+    padding: 60px 0px;
+  }
+  .hiring_banner_image_container{
+      width: 330px
+  }
+  .hiring_banner_image{
+    width: 250px;
+    height: 250px;
+  }
+  .top_section_hiring_banner3_header h2{
+    font-size: 30px;
+  }
+  .apply_home_page_btn{
+    font-size: 16px;
+    padding : 8px;
+    width: 130px;
+  }
+  .career_arrow_icon{
+    font-size: 16px;
+}
+}
+
+@media  screen and (max-width:375px)  {
 
   .hiring_banner_image{
-    width: 300px;
-    height : 300px;
+    width: 220px;
+    height: 220px;
   }
-  
-  .top_section_hiring_banner3 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    grid-gap: 15px;
+  .top_section_hiring_banner3_header h2{
+    font-size: 28px;
   }
-  
-  .top_section_hiring_banner3 h2 {
-    font-weight: 800;
-    font-size: 38px;
-    line-height: 133.5%;
-    text-align: center;
-    color: #175CE6;
-  }
-
-
-  .top_section_hiring_banner3 p {
-    width: 55%;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
-    text-align: center;
-    color: var(--para-color);
-  }
-  
-  .astrisk_hiring{
-    color: #457DED;
-  }
-
-  .apply_home_page_btn{
-    background-color: var(--primary-color);
-    outline: none; 
-    border: none; 
-    color: white;
-    padding: 10px 35px;
-    border-radius: 5px;
-    transition: 0.2s ease-in-out; 
-    cursor:pointer;
-  }
-
-  .hiring_hashtag{
-    color:  var(--primary-color);
-  }
-  
-  @media screen and (max-width: 800px) {
-      .main_container_hiring_banner {
-          padding: 50px 30px;
-        }
-  
-    .top_section_hiring_banner3 h2 {
-      font-size: 32px;
-      line-height: 123.5%;
-    }
-  
-    .top_section_hiring_banner3 p {
-      width: 90%;
-      font-size: 16px;
-      line-height: 25px;
-    }
-  }
-  
-  @media screen and (max-width: 390px) {
-      .main_container_hiring_banner {
-          padding: 40px 20px;
-          grid-gap: 15px;
-        }
-     
-  
-      .top_section_hiring_banner3 h2 {
-          font-size: 28px;
-          line-height: 113.5%;
-        }
-      
-        .top_section_hiring_banner3 p {
-          width: 100%;
-          font-size: 16px;
-          line-height: 22px;
-        }
-  }
+  .hiring_banner_image_container{
+    width: 280px
+}
+.top_section_hiring_banner3_desc{
+  width: 90%;
+}
+}

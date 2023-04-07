@@ -44,48 +44,58 @@ color: var(--light-gray);
     width: 370px;
 }
 
-.imgholder > img{
-    max-width: 50vw;
-    position: relative;
-    left: 0;
+.imgholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.imgholder > img{
+    width: 500px;
+    height: 300px;
+}
+
+.gotocourses{
+    background-color: var(--primary-color);
+    outline: none; 
+    border: none; 
+    color: white;
+    padding: 10px 35px;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out; 
+    cursor:pointer;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.gotocourses:focus{
+    outline: none;
+}
+
+
+.gotocourses:hover{
+    transform: scale(1.02);
+}
+
 .ctasection{
     display: flex;
-    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 60px 40px;
 }
+
 .buttonholder{
-    background-color: radial-gradient(190.27% 190.27% at 49.8% -11.08%, #FFFFFF 26.01%, #60D2E7 80.54%);
-    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 30px;
 }
-.buttonholder > h2{
-    position: relative;
- left: 12vw;
- top: 1vh;
- font-weight: 600;
- font-size: xx-large;
- font-family: sans-serif;
-}
-/* Button */
-.gotocourses{
- padding: 1rem;
- position: relative;
- left: 20vw;
- top: 20vh;
- background-color: var(--primary-color);
- color: white;
- border: 2px solid black;
- padding: 1.5rem;
- border-radius: 20px;
- width: auto;
- height: auto;
- font-weight: 900;
- font-size: x-large;
- /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; */
-}
-.gotocourses:hover{
-    background-color: rgb(72, 161, 72);
-    translate: 1px 1px;
-    border: 1px solid white;
+
+.buttonholder h2{
+    text-align: center;
+    font-size: 28px;
 }
 
 
@@ -107,6 +117,13 @@ color: var(--light-gray);
     }
 }
 
+@media screen and (max-width: 730px) {
+    .ctasection{
+        display: block;
+    }
+}
+
+
 @media screen and (max-width: 650px) {
     .main_container_homebanner1 {
         width: 100%;
@@ -126,6 +143,17 @@ color: var(--light-gray);
 
     .bottom_section_homebanner1 img {
         width: 300px;
+    }
+    .imgholder > img{
+        width: 400px;
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .imgholder > img{
+        width: 350px;
+        height: 250px;
     }
 }
 
@@ -148,5 +176,12 @@ color: var(--light-gray);
 
     .bottom_section_homebanner1 img {
         width: 260px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .imgholder > img{
+        width: 300px;
+        height: 230px;
     }
 }

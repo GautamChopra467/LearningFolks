@@ -21,12 +21,11 @@ const HomeBanner1 = () => {
         </div>
         <div className='ctasection'>
           <div className='imgholder'>
-          <img classname="planimg" src={plans} alt='plans' />
+          <img className="planing" src={plans} alt='plans' />
           </div>
           <div className='buttonholder'>
             <h2>B.Tech Educational Support Plans</h2>
             <a href="https://courses.learningfolks.in/s/store"><button className='gotocourses'>Go To Courses</button></a>
-            
           </div>
         </div>
 
