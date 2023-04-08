@@ -66,15 +66,16 @@ const HomeBanner6 = () => {
         <div className='bottom_section_homebanner6'>
             <div className='card_container_homebanner6'>
                 <div className='card_top_section_homebanner6'>
-                    <h3><RiDoubleQuotesL/>New Testimonials<RiDoubleQuotesR/></h3>
+                    <h3><RiDoubleQuotesL/>Ngl but being a first year student, studying in IPU's top college, I never really understood the classroom notes. LF's notes and video recommendations just saved my entire semester.
+Much grateful.<RiDoubleQuotesR/></h3>
                 </div>
 
                 <div className='card_bottom_section_homebanner6'>
                     <div className='image_container_homebanner6'>
-                        <img src="https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt='testimonial' />
+                        {/* <img src="https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt='testimonial' /> */}
                     </div>
                     <div className='detail_container_homebanner6'>
-                        <h4>John Doe</h4>
+                        {/* <h4>John Doe</h4> */}
                         <p></p>
                     </div>
                 </div>
@@ -82,15 +83,15 @@ const HomeBanner6 = () => {
 
             <div className='card_container_homebanner6'>
                 <div className='card_top_section_homebanner6'>
-                    <h3><RiDoubleQuotesL/>New Testimonials<RiDoubleQuotesR/></h3>
+                    <h3><RiDoubleQuotesL/>Thanks to the LF's community support where I could easily make contacts with my peers who have the same interests as mine.<RiDoubleQuotesR/></h3>
                 </div>
 
                 <div className='card_bottom_section_homebanner6'>
                     <div className='image_container_homebanner6'>
-                        <img src="https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt='testimonial' />
+                        {/* <img src="https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt='testimonial' /> */}
                     </div>
                     <div className='detail_container_homebanner6'>
-                        <h4>John Doe</h4>
+                        {/* <h4>John Doe</h4> */}
                         <p></p>
                     </div>
                 </div>
@@ -98,15 +99,15 @@ const HomeBanner6 = () => {
 
             <div className='card_container_homebanner6'>
                 <div className='card_top_section_homebanner6'>
-                    <h3><RiDoubleQuotesL/>New Testimonials<RiDoubleQuotesR/></h3>
+                    <h3><RiDoubleQuotesL/>I didn't know there were so many domains in the tech sector until I saw large variety of resources floating in the community groups.Well done guys!<RiDoubleQuotesR/></h3>
                 </div>
 
                 <div className='card_bottom_section_homebanner6'>
                     <div className='image_container_homebanner6'>
-                        <img src="https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt='testimonial' />
+                        {/* <img src="https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt='testimonial' /> */}
                     </div>
                     <div className='detail_container_homebanner6'>
-                        <h4>John Doe</h4>
+                        {/* <h4>John Doe</h4> */}
                         <p></p>
                     </div>
                 </div>
