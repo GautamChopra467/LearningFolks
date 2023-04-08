@@ -10,7 +10,7 @@ const HiringBanner = () => {
   return (
       <div className='main_container_hiring_banner'>
         <div className='hiring_banner_image_container'>
-            <img className='hiring_banner_image' src={HiringBannerImage}/>
+            <img className='hiring_banner_image' src={HiringBannerImage} alt = " "/>
         </div>
         <div className='top_section_hiring_banner3'>
           <div className='top_section_hiring_banner3_content'>
