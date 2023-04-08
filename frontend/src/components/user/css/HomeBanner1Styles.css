@@ -82,7 +82,11 @@ color: var(--light-gray);
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 60px 40px;
+    padding: 20px 10px;
+    margin: 60px 40px;
+    border: 1px solid;
+    border-color: var(--primary-color);
+    border-radius: 10%;
 }
 
 .buttonholder{
@@ -90,11 +94,11 @@ color: var(--light-gray);
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-left: 30px;
+    margin-left: 4vw;
 }
 
 .buttonholder h2{
-    text-align: center;
+    /* text-align: center; */
     font-size: 28px;
 }
 
