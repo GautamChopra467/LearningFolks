@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsLinkedin } from 'react-icons/bs';
 import "../css/HomeBanner3Styles.css";
-import { FaWhatsappSquare, FaYoutubeSquare } from 'react-icons/fa';
+import { FaFacebookSquare, FaWhatsappSquare, FaYoutubeSquare } from 'react-icons/fa';
 import { AiFillInstagram } from 'react-icons/ai';
 
 const HomeBanner3 = () => {
@@ -25,6 +25,8 @@ needs better than anyone else.</p>
             <a href='https://chat.whatsapp.com/CsVKbuGcheBCOwlSD6SvVk' target="_blank" rel="noreferrer"><FaWhatsappSquare className='icon3_homebanner3' /></a>
 
             <a href='https://www.instagram.com/learningfolks/' target="_blank" rel="noreferrer"><AiFillInstagram className='icon4_homebanner3' /></a>
+
+            <a href='https://www.facebook.com/learningfolks2022' target="_blank" rel="noreferrer"><FaFacebookSquare className='icon5_homebanner3' /></a>
         </div>
       </div>
     </div>

@@ -69,7 +69,8 @@ color: var(--white-color);
   .icon1_footer:hover,
   .icon2_footer:hover,
   .icon3_footer:hover,
-  .icon4_footer:hover {
+  .icon4_footer:hover,
+  .icon5_footer:hover {
     color: var(--background-secondary);
   }
   
@@ -88,6 +89,12 @@ color: var(--white-color);
     font-size: 52px;
     color: var(--white-color);
     margin-left: -7px;
+  }
+
+  .icon5_footer {
+    font-size: 44px;
+    color: var(--white-color);
+    margin-left: -6px;
   }
   
 
